@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Calendar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="calendar-container">
+    <div class="calendar-header">
+      <div class="header-brand">
+        <img src="logo.png" class="logo" alt="Company Logo">
+        <h1 id="calendar-title"><span class="season-icon" id="season-icon"></span></h1>
+      </div>
+      <div class="header-controls">
+        <button class="nav-button" id="prev-month">&lt;</button>
+        <button class="nav-button" id="next-month">&gt;</button>
+      </div>
+    </div>
+    <div class="calendar-controls">
+      <div>
+        <button id="today-btn" class="today-button">Today</button>
+        <button id="print-btn" class="today-button">Print</button>
+      </div>
+      <div class="event-legend">
+        <div class="legend-item">
+          <span class="event-icon">🎂</span> Birthday
+          <span class="event-icon">💸</span> Payday
+        </div>
+      </div>
+    </div>
+    <div id="calendar-grid" class="calendar-grid"></div>
+  </div>
+  
+  <div class="overlay" id="overlay"></div>
+
+  <div class="event-details" id="event-details">
+    <h3 id="event-title"></h3>
+    <p id="event-time"></p>
+    <p id="event-description"></p>
+    <button id="close-event">Close</button>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+{
+    "calendarName": "Staff Calendar",
+    "month": 2,
+    "year": 2025,
+    "events": [
+      {
+        "id": "P-1",
+        "title": "💸",
+        "date": "2025-03-07",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-2",
+        "title": "💸",
+        "date": "2025-03-21",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-3",
+        "title": "💸",
+        "date": "2025-04-04",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-3",
+        "title": "💸",
+        "date": "2025-04-18",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "B-1",
+        "title": "🎂",
+        "date": "2025-02-07",
+        "time": "ALL DAY",
+        "description": "Happy Birthday Mulunesh Abera!"
+    },
+    {
+        "id": "B-2",
+        "title": "🎂",
+        "date": "2025-08-02",
+        "time": "ALL DAY",
+        "description": "Happy Birthday Rosario Mowdy!"
+    },
+    {
+        "id": "B-3",
+        "title": "🎂",
+        "date": "2025-01-07",
+        "time": "ALL DAY",
+        "description": "Happy Birthday Sara Bateki!"
+    },
+    {
+        "id": "B-4",
+        "title": "🎂",
+        "date": "2025-05-18",
+        "time": "ALL DAY",
+        "description": "Happy Birthday Nhu Nguyen!"
+    },
+    {
+        "id": "B-5",
+        "title": "🎂",
+        "date": "2025-06-04",
+        "time": "ALL DAY",
+        "description": "Happy Birthday Melissa Watson!"
+    },
+    {
+        "id": "B-6",
+        "title": "🎂",
+        "date": "2025-12-17",
+        "time": "ALL DAY",
+        "description": "Happy Birthday Ebony Wilson!"
+    },
+    {
+        "id": "B-7",
+        "title": "🎂",
+        "date": "2025-12-06",
+        "time": "ALL DAY",
+        "description": "Happy Birthday Richard Akomea!"
+    },
+    {
+        "id": "B-8",
+        "title": "🎂",
+        "date": "2025-04-16",
+        "time": "ALL DAY",
+        "description": "Happy Birthday Holly McMahon!"
+    },
+    {
+        "id": "B-9",
+        "title": "🎂",
+        "date": "2025-10-11",
+        "time": "ALL DAY",
+        "description": "Happy Birthday Florence Spencer!"
+    },
+    {
+        "id": "B-10",
+        "title": "🎂",
+        "date": "2025-12-26",
+        "time": "ALL DAY",
+        "description": "Happy Birthday Hashim Osman!"
+    },
+    {
+        "id": "B-11",
+        "title": "🎂",
+        "date": "2025-09-11",
+        "time": "ALL DAY",
+        "description": "Happy Birthday Noorhan Ishaq!"
+    },
+    {
+        "id": "B-12",
+        "title": "🎂",
+        "date": "2025-12-05",
+        "time": "ALL DAY",
+        "description": "Happy Birthday Maryam Arsala!"
+    },
+    {
+        "id": "B-13",
+        "title": "🎂",
+        "date": "2025-09-25",
+        "time": "ALL DAY",
+        "description": "Happy Birthday Rennea Artificio!"
+    }
+    ]
+  }
