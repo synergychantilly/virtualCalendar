@@ -144,6 +144,9 @@ async function fetchCalendarData() {
     console.error('Using sample data:', error);
     calendarData = getSampleData();
   }
+  const today = new Date();
+  calendarData.month = today.getMonth();
+  calendarData.year = today.getFullYear();
   renderCalendar();
 }
 
