@@ -25,9 +25,135 @@
         "description": "Payday is here!"
       },
       {
-        "id": "P-3",
+        "id": "P-4",
         "title": "💸",
         "date": "2025-04-18",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-5",
+        "title": "💸",
+        "date": "2025-05-02",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-6",
+        "title": "💸",
+        "date": "2025-05-16",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-7",
+        "title": "💸",
+        "date": "2025-05-30",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-8",
+        "title": "💸",
+        "date": "2025-06-13",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-9",
+        "title": "💸",
+        "date": "2025-06-27",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-10",
+        "title": "💸",
+        "date": "2025-07-11",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-11",
+        "title": "💸",
+        "date": "2025-07-25",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-12",
+        "title": "💸",
+        "date": "2025-08-08",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-13",
+        "title": "💸",
+        "date": "2025-08-22",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-14",
+        "title": "💸",
+        "date": "2025-09-05",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-15",
+        "title": "💸",
+        "date": "2025-09-19",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-16",
+        "title": "💸",
+        "date": "2025-10-03",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-17",
+        "title": "💸",
+        "date": "2025-10-17",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-18",
+        "title": "💸",
+        "date": "2025-10-31",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-19",
+        "title": "💸",
+        "date": "2025-11-14",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-20",
+        "title": "💸",
+        "date": "2025-11-28",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-21",
+        "title": "💸",
+        "date": "2025-12-12",
+        "time": "ALL DAY",
+        "description": "Payday is here!"
+      },
+      {
+        "id": "P-22",
+        "title": "💸",
+        "date": "2025-12-26",
         "time": "ALL DAY",
         "description": "Payday is here!"
       },
@@ -111,16 +237,93 @@
     {
         "id": "B-12",
         "title": "🎂",
-        "date": "2025-12-05",
-        "time": "ALL DAY",
-        "description": "Happy Birthday Maryam Arsala!"
-    },
-    {
-        "id": "B-13",
-        "title": "🎂",
         "date": "2025-09-25",
         "time": "ALL DAY",
         "description": "Happy Birthday Rennea Artificio!"
+    },
+    {
+        "id": "H-Easter",
+        "title": "🐰",
+        "date": "2025-04-20",
+        "time": "ALL DAY",
+        "description": "It's Easter! Get those baskets ready!"
+    },
+    {
+        "id": "H-TaxDay",
+        "title": "📜",
+        "date": "2025-04-15",
+        "time": "ALL DAY",
+        "description": "Did you file your taxes?!"
+    },
+    {
+        "id": "H-MemorialDay",
+        "title": "🏳️",
+        "date": "2025-05-26",
+        "time": "ALL DAY",
+        "description": "Memorial Day - Remember and Honor"
+    },
+    {
+        "id": "H-Juneteenth",
+        "title": "✊🏾",
+        "date": "2025-06-19",
+        "time": "ALL DAY",
+        "description": "Juneteenth - Freedom Day"
+    },
+    {
+        "id": "H-IndependenceDay",
+        "title": "🎆",
+        "date": "2025-07-04",
+        "time": "ALL DAY",
+        "description": "Happy Independence Day!"
+    },
+    {
+        "id": "H-LaborDay",
+        "title": "🛠️",
+        "date": "2025-09-01",
+        "time": "ALL DAY",
+        "description": "Happy Labor Day!"
+    },
+    {
+        "id": "H-ColumbusDay",
+        "title": "🌎",
+        "date": "2025-10-13",
+        "time": "ALL DAY",
+        "description": "Columbus Day / Indigenous Peoples' Day"
+    },
+     {
+        "id": "H-Halloween",
+        "title": "🎃",
+        "date": "2025-10-31",
+        "time": "ALL DAY",
+        "description": "Happy Halloween!"
+    },
+    {
+        "id": "H-VeteransDay",
+        "title": "🎖️",
+        "date": "2025-11-11",
+        "time": "ALL DAY",
+        "description": "Veterans Day - Thank you for your service"
+    },
+    {
+        "id": "H-Thanksgiving",
+        "title": "🦃",
+        "date": "2025-11-27",
+        "time": "ALL DAY",
+        "description": "Happy Thanksgiving!"
+    },
+    {
+        "id": "H-Christmas",
+        "title": "🎄",
+        "date": "2025-12-25",
+        "time": "ALL DAY",
+        "description": "Merry Christmas!"
+    },
+    {
+        "id": "H-NewYearsEve",
+        "title": "🎉",
+        "date": "2025-12-31",
+        "time": "ALL DAY",
+        "description": "Happy New Year's Eve!"
     }
     ]
   }
