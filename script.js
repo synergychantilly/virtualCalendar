@@ -291,7 +291,7 @@ function createActiveDay(cell, dateObj, today) {
 
   // Create a container for events
   const eventsList = document.createElement('div');
-  eventsList.className = 'events-list'; // For standard list items
+  eventsList.className = 'events-list';
   cell.appendChild(eventsList);
 
   if (isToday) {
@@ -310,29 +310,28 @@ function createActiveDay(cell, dateObj, today) {
     cell.appendChild(badge); // Append badge to the cell itself
 }
 
+const centeredEmojiTitles = ["🏳️", "✊🏾", "🎆", "🛠️", "🌎", "🎃", "🎖️", "🦃", "🎄", "🎉", "🎂", "💸", "🐰", "📜"];
+
 // --- Process Events: Separate Emojis from Regular ---
 events.forEach(event => {
+
+    const isKnownCenteredEmoji = event.title && centeredEmojiTitles.includes(event.title);
     // Check if the title is a single emoji
-    if (event.title && singleEmojiRegex.test(event.title)) {
-        // *** Create CENTERED EMOJI ELEMENT ***
-        const emojiEl = document.createElement('div');
-        emojiEl.className = 'centered-emoji-event'; // New class for styling
-        emojiEl.textContent = event.title; // Just the emoji
-        emojiEl.setAttribute('title', `${event.description || event.title}\nTime: ${event.time || 'ALL DAY'}`); // Tooltip
-
-        emojiEl.addEventListener('click', (e) => {
-            e.stopPropagation(); // Prevent triggering other clicks if needed
-            showEventDetails(event);
-        });
-
-        // Append centered emoji directly to the cell, NOT the eventsList
-        cell.appendChild(emojiEl);
-
-    } else {
-        // *** Create REGULAR BOXED EVENT ***
-        // Pass the eventsList container to the function
-        createEventElement(eventsList, event);
-    }
+    if (isKnownCenteredEmoji /* || isSimpleEmojiViaRegex */ ) { // Decide if you need the regex fallback
+      // Create CENTERED EMOJI ELEMENT
+      const emojiEl = document.createElement('div');
+      emojiEl.className = 'centered-emoji-event';
+      emojiEl.textContent = event.title;
+      emojiEl.setAttribute('title', `${event.description || event.title}\nTime: ${event.time || 'ALL DAY'}`);
+      emojiEl.addEventListener('click', (e) => {
+          e.stopPropagation();
+          showEventDetails(event);
+      });
+      cell.appendChild(emojiEl);
+  } else {
+      // Create REGULAR BOXED EVENT (for titles like "Team Meeting")
+      createEventElement(eventsList, event);
+  }
 });
 }
 
